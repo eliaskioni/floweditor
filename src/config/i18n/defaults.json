@@ -148,9 +148,9 @@
   },
   "contact_statuses": {
     "active": "Active",
+    "archived": "Archived - remove from groups, ignore forever",
     "blocked": "Blocked - remove from groups, ignore forever",
-    "stopped": "Stopped - remove from groups, ignore until they message again",
-    "archived": "Archived - remove from groups, ignore forever"
+    "stopped": "Stopped - remove from groups, ignore until they message again"
   },
   "context_explorer": {
     "copied_expression": "Copied <1>[[expression]]</1> to clipboard",
@@ -159,6 +159,7 @@
   },
   "create_group": "Create Group",
   "create_label": "Create Label",
+  "document": "Document",
   "drag_helper": "To connect nodes, <1>drag</1> from the red circle.",
   "email": {
     "subject": "Subject",
@@ -234,6 +235,7 @@
     "name": "Name",
     "operand": "Operand",
     "operator": "operator",
+    "pdf_url": "PDF Document URL",
     "play_audio_help_text": "Enter a variable that contains a recording the contact has previously recorded. For example, @results.voicemail or @fields.short_bio.",
     "quick_replies": "Quick Replies",
     "quick_replies_summary": "Quick Replies are made into buttons for supported channels. For example, when asking a question, you might add a Quick Reply for \"Yes\" and one for \"No\".",
@@ -254,6 +256,8 @@
     "rules": "rules",
     "save_as_title": "Save as..",
     "save_result_name": "Result Name",
+    "select_contacts": "Select Contacts",
+    "select_intent": "Select intent",
     "select_result": "Select Result",
     "send_msg_facebook_topic_placeholder": "Select a topic to use over Facebook",
     "send_msg_facebook_warning": "Sending bulk messages over a Facebook channel requires that a topic be specified if the user has not sent a message in the last 24 hours. Setting a topic to use over Facebook is especially important for the first message in your flow.",
@@ -424,6 +428,7 @@
       "path": "WhatsApp Number"
     }
   },
+  "select_groups": "Select Groups",
   "simulator": {
     "added_to_group": "Added to ",
     "airtime_transferred": "Transferred [[amount]] [[currency]] to [[recipient]]",

@@ -350,7 +350,9 @@ export default class CaseElement extends React.Component<CaseElementProps, CaseE
         ) {
           let intents: SelectOption[] = [];
 
-          if (this.props.classifier && this.props.classifier.content) {
+          console.log('LOG', this.props.classifier);
+
+          if (this.props.classifier && this.props.classifier.intents) {
             intents = this.props.classifier.content.intents.map((intent: string) => {
               const option: SelectOption = {
                 name: intent,
@@ -359,6 +361,8 @@ export default class CaseElement extends React.Component<CaseElementProps, CaseE
               return option;
             });
           }
+
+          console.log('intents', intents);
 
           return (
             <>

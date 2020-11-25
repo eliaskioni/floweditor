@@ -170,7 +170,10 @@ export default class ClassifyRouterForm extends React.Component<
         )
       }
     ];
-
+    console.log(this.props.assetStore.classifiers);
+    console.log(this.state.cases);
+    console.log('elias', intentOperatorList);
+    console.log('kioni', this.state.classifier.value);
     return (
       <Dialog
         title={typeConfig.name}
